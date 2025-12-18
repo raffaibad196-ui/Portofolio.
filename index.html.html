@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portofolio</title>
+
+  <!-- FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+  <!-- CSS TERPISAH -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- META SHARE (GANTI LINK SESUAI GITHUB KAMU) -->
+  <meta property="og:title" content="Portofolio Moh. Raffa Nashoihul Ibad">
+  <meta property="og:description" content="Fotografi • Desain • Kreatif Digital">
+  <meta property="og:image" content="https://USERNAME.github.io/REPO/assets/preview.jpg">
+  <meta property="og:type" content="website">
+</head>
+
+<body>
+<div class="bg"></div>
+
+<div class="container">
+<header>
+  <div class="brand">
+    <div class="logo">RF</div>
+    <div>
+      <h1>Moh. Raffa Nashoihul Ibad</h1>
+      <p>My Portofolio</p>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="profile card">
+    <img src="assets/foto-profil.jpg" class="foto-profil">
+    <p class="bio">
+      Halo! Perkenalkan Nama Saya <b>Mohammad Raffa Nashoihul Ibad</b>...
+    </p>
+  </div>
+
+  <div>
+    <section class="card">
+      <h2>Hobi</h2>
+      <div class="hobbies">
+        <div class="hobby">
+          <strong>Fotografi</strong>
+          <img src="assets/hobi-foto.jpg">
+        </div>
+        <div class="hobby">
+          <strong>Desain</strong>
+          <img src="assets/hobi-desain.jpg">
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  &copy; <span id="year"></span> Raffa Ibad
+</footer>
+</div>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
